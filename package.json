@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "license": "GPL-2.0",
+  "scripts": {
+    "build": "yarn run gatsby build",
+    "start": "yarn run gatsby develop",
+    "clean": "yarn run gatsby clean"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "gatsby": "^4.13.1",
+    "gatsby-plugin-catch-links": "^4.13.0",
+    "gatsby-plugin-image": "^2.13.0",
+    "gatsby-plugin-sharp": "^4.13.0",
+    "gatsby-source-wordpress": "^6.13.0",
+    "gatsby-transformer-sharp": "^4.13.0",
+    "react": "17",
+    "react-dom": "17"
+  }
+}
